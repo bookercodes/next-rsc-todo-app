@@ -1,6 +1,6 @@
 'use client'
 
-import { deleteAllTodosAction } from "./actions" 
+import { deleteAllTodosAction } from "../actions" 
 
 export default function DeleteAllButton () { 
       return <form onSubmit={async e => {
